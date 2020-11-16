@@ -1,11 +1,18 @@
 <template>
+  <van-button type="success">单色按钮</van-button>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
+    <router-link to="/">Home</router-link>
+    |
     <router-link to="/about">About</router-link>
   </div>
   <router-view />
 </template>
+<script>
 
+export default {
+  name: "app"
+}
+</script>
 <style lang="less">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
