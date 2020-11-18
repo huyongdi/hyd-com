@@ -1,18 +1,18 @@
 <template>
-  <div id="nav">
-    <a-button type="primary">
-      Primary
-    </a-button>
-    <router-link to="/">主页</router-link>
-    |
-    <router-link to="/about">关于</router-link>
+  <div id="all">
+    <LeftMenu />
+    <router-view id="rightMenu" />
   </div>
-  <router-view />
 </template>
 
 <script>
+import LeftMenu from "@/layout/LeftMenu"
+
 export default {
-  name: "app"
+  name: "app",
+  components: {
+    LeftMenu
+  }
 }
 </script>
 
@@ -23,14 +23,31 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
 
-  #nav {
-    a {
-      font-weight: bold;
-      color: #2c3e50;
-      padding: 5px;
-      &.router-link-exact-active {
-        color: #42b983;
-      }
+  #all {
+    display: flex;
+    height: 100vh;
+
+    #rightMenu {
+      flex: 1;
+    }
+
+    //a {
+    //  font-weight: bold;
+    //  color: #2c3e50;
+    //  padding: 5px;
+    //
+    //  &.router-link-exact-active {
+    //    color: #42b983;
+    //  }
+    //}
+  }
+
+  //这里直接写公共样式
+  ul {
+    padding: 0;
+
+    li {
+      list-style: none;
     }
   }
 }

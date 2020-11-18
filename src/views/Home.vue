@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    123
+    Home页
     <!--    努力 奋斗-->
   </div>
 </template>
