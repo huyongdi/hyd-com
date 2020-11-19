@@ -15,21 +15,16 @@
 </template>
 
 <script>
-// import { HomeOutlined } from "@ant-design/icons-vue"
 import router from "../router"
-
-console.log(router.getRoutes())
 
 export default {
   name: "LeftMenu",
   components: {
-    // HomeOutlined
   },
   data() {
     return {
       menuList: router.getRoutes(),
       currentPath: null
-
     }
   },
   watch: {

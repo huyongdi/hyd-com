@@ -1,7 +1,6 @@
 <template>
   <div class="home">
-    Home页
-    <!--    努力 奋斗-->
+    努力 奋斗
   </div>
 </template>
 
@@ -19,5 +18,6 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 30px;
 }
 </style>
