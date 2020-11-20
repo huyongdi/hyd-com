@@ -29,17 +29,8 @@ export default {
 
     #rightMenu {
       flex: 1;
+      padding: 10px;
     }
-
-    //a {
-    //  font-weight: bold;
-    //  color: #2c3e50;
-    //  padding: 5px;
-    //
-    //  &.router-link-exact-active {
-    //    color: #42b983;
-    //  }
-    //}
   }
 
   //这里直接写公共样式
