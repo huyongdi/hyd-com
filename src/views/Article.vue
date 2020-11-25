@@ -94,10 +94,20 @@ export default {
           return "icon-html"
         case "JS":
           return "icon-js"
+
+        case "公众号/小程序":
+          return "icon-app"
+        case "小全栈":
+          return "icon-all"
         case "Webapck":
           return "icon-webpack"
         case "Nginx":
           return "icon-nginx"
+
+        case "其他":
+          return "icon-qita"
+        case "记文":
+          return "icon-jiwen"
         default:
           return ""
       }
