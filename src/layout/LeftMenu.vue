@@ -57,7 +57,7 @@ export default {
 
 <style scoped lang="less">
 #leftMenu {
-  width: 250px;
+  min-width: 250px;
   background: #2b2b2b;
   color: #aaa;
   padding-top: 30px;
