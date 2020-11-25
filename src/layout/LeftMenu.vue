@@ -2,7 +2,7 @@
   <div id="leftMenu">
     <img src="../assets/hyd.jpg" alt="左侧头像" class="myPhoto">
     <h2 class="myName">胡永迪</h2>
-    <h3 class="myIntroduce">今天你毛化了吗？</h3>
+    <h3 class="myIntroduce">一个小码农</h3>
     <ul class="menus">
       <li v-for="menu in menuList" :key="menu.path" :class="[menu.path === currentPath ? 'in' : '']"
           @click="jumpToRouter(menu.path)">
@@ -10,7 +10,6 @@
         <div class="text">{{ menu.name }}</div>
       </li>
     </ul>
-
   </div>
 </template>
 
