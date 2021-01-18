@@ -14,9 +14,10 @@
           <a-timeline-item>2018.03 - 2021.0x 重庆前端</a-timeline-item>
         </a-timeline>
       </div>
-      <div class="timeMap" id="aboutMap">
-
-      </div>
+      <div class="timeMap" id="aboutMap"></div>
+    </div>
+    <div class="md">
+      <span @click="lookResume">在线预览简历</span>
     </div>
   </div>
 </template>
@@ -39,6 +40,9 @@ export default {
       let map = new window.BMap.Map("aboutMap") // 创建地图实例
       map.centerAndZoom(this.mapCenter, 15) // 初始化地图，设置中心点坐标和地图级别
       map.enableScrollWheelZoom(true) //开启鼠标滚轮缩放
+    },
+    lookResume() {
+      window.open(`https://view.officeapps.live.com/op/view.aspx?src=https://www.huyongdi.com/doc/前端-胡永迪简历.doc?${Math.random()}`)
     }
   }
 }
@@ -69,6 +73,23 @@ export default {
 
     .timeMap {
       flex: 1;
+    }
+  }
+
+  .md {
+    height: calc(~'100% - 300px');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    > span {
+      font-size: 16px;
+      cursor: pointer;
+      color: #1890ff;
+
+      &:hover {
+        color: #000099;
+      }
     }
   }
 }

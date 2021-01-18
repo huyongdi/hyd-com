@@ -86,7 +86,6 @@ export default {
   },
   methods: {
     showDetail(item) {
-      console.log(`https://view.officeapps.live.com/op/view.aspx?src=https://www.huyongdi.com/doc/${item.title}.docx?${Math.random()}`)
       window.open(`https://view.officeapps.live.com/op/view.aspx?src=https://www.huyongdi.com/doc/${item.title}.docx?${Math.random()}`)
     },
     getMenuIcon(name) {
