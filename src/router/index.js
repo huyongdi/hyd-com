@@ -22,7 +22,7 @@ const routes = [
   },
   {
     path: "/app",
-    name: "APP声明",
+    name: "APP",
     component: APP
   }
 ]

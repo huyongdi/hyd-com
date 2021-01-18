@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-    <!--    努力 奋斗-->
-    今天，你毛化了吗？
+        努力 奋斗
+<!--    今天，你毛化了吗？-->
   </div>
 </template>
 
