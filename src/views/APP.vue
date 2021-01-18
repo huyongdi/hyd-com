@@ -1,7 +1,7 @@
 <template>
   <div class="appWrap">
     <div class="introduce">
-      介绍：旨在学习交流，从uniapp出发，进行app和小程序测试
+      介绍：旨在学习交流，从uniapp出发，进行app和小程序测试，进行中...
     </div>
     <div class="githubAddr">
       项目地址：https://github.com/huyongdi/my-app
