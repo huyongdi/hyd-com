@@ -6,7 +6,7 @@ import { Button, Timeline, Tabs, List, Card } from "ant-design-vue"
 import { createFromIconfontCN } from "@ant-design/icons-vue"
 
 const IconFont = createFromIconfontCN({
-  scriptUrl: "//at.alicdn.com/t/font_1833037_gsij8h0l4v.js"
+  scriptUrl: "//at.alicdn.com/t/font_1833037_hdd1zk70slw.js"
 })
 
 const app = createApp(App)

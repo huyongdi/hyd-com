@@ -18,8 +18,7 @@ import router from "../router"
 
 export default {
   name: "LeftMenu",
-  components: {
-  },
+  components: {},
   data() {
     return {
       menuList: router.getRoutes(),
@@ -41,6 +40,8 @@ export default {
           return "icon-guanyu"
         case "/article":
           return "icon-wenzhang"
+        case "/app":
+          return "icon-shouji"
         default:
           return "icon-home"
       }
